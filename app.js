@@ -7,6 +7,7 @@ mongoose
   .connect(db, { useNewUrlParser: true })
   .then(() => console.log("Connected to MongoDB successfully"))
   .catch((err) => console.log(err));
+  
 
 app.get("/", (req, res) => res.send("Hello MERN"));
 const port = process.env.PORT || 5000;
