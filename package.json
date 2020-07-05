@@ -7,7 +7,6 @@
     "start": "node app.js",
     "server": "nodemon app.js",
     "server:debug": "nodemon --inspect app.js"
-    
   },
   "author": "",
   "license": "ISC",
